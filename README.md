@@ -17,27 +17,27 @@ Antes de comecar, voce precisara ter instalado em sua maquina:
 
 1. Clone o repositorio.
 2. Crie um ambiente virtual:
-   `ash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate     # Windows
-   `
+   ```
 3. Instale as dependencias:
-   `ash
+   ```bash
    pip install -r requirements.txt
-   `
+   ```
 
 ## Como Usar
 
 Para rodar com a camera padrao (0):
-`ash
+```bash
 python run.py --source 0 --show
-`
+```
 
 Para rodar com um arquivo de video:
-`ash
+```bash
 python run.py --source caminho/do/video.mp4 --show
-`
+```
 
 ## Estrutura do Projeto
 - 
